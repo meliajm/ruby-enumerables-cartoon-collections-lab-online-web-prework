@@ -3,7 +3,7 @@ def roll_call_dwarves(array)# code an argument here
   # Your code here
   # array.each_with_index { |name| puts name }
   i = 0 
-  while do 
+  while i < array.length do 
     puts array[i]
   i += 1 
   end
