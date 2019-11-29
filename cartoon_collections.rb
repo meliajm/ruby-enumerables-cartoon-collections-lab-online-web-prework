@@ -23,6 +23,7 @@ def find_the_cheese(array) # code an argument here
   while i < cheese_types.length do 
     if array.include?(cheese_types[i])
       result = cheese_types[i]
+      break
     
     end
   i += 1 
