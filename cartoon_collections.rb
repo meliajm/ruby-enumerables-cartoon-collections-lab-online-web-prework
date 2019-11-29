@@ -1,8 +1,12 @@
 require 'pry'
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-  array.each_with_index { |name| puts name }
-  
+  # array.each_with_index { |name| puts name }
+  i = 0 
+  while do 
+    puts array[i]
+  i += 1 
+  end
 end
 
 def summon_captain_planet# code an argument here
